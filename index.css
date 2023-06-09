@@ -13,78 +13,83 @@
 }
 .header{
    display: flex;
-    border:2px solid #155EEF;
-    margin:20px   100px;
-    border-radius: 10px;
-    font-size: 10px;
+    border:0.2em solid #155EEF;
+    margin:1.25em   10em;
+    border-radius: 0.625em;
+    font-size: 0.625em;
     font-family: sans-serif;
     font-weight: bold;
-    padding:10px 10px 0px 20px;
+    padding:0.625em  0.625em 0em 1.25em;
     width:80%;
 
 }
 .img1{
-    width:450px;
-    height:300px;
+    width:28.125em;
+    height:18.75em;
 
 }
 .img2{
-    border-top:1px solid #155EEF;
-    border-bottom: 1px solid #155EEF;
-    border-left: 1px solid #155EEF;
-    padding:5px;
-    margin:25px 0px;
+    border-top:0.063em solid #155EEF;
+    border-bottom: 0.063em solid #155EEF;
+    border-left: 0.063em solid #155EEF;
+    padding:0.313em;
+    margin:1.563em 0em;
 }
 
 .nav{
  display:flex;
- padding-left:55%;
- gap:50px;
+ padding-left:60%;
+ gap:10em;
  font-family: 'Halant';
  font-style: normal;
  font-weight: 500;
- font-size:10px;
- line-height: 24px;
+ font-size:0.645em;
+ line-height:1.5em ;
+
 
 }
+.h2{
+   padding-top: 0.625em;
+}
 .h1{
-    border:1px solid #155EEF;
+    border:0.263em solid #155EEF;
     color: #155EEF;
-    border-radius: 5px;
-    letter-spacing: 0.2em;
-    margin-bottom:14px;
+    width:6.25em;
+    border-radius:0.625em;
+    letter-spacing: 0.031em;
+    margin-bottom:0.875em;
     font-family: 'Halant';
     font-style: normal;
     font-weight:bold;
-    font-size:10px;
-    line-height: 24px;
-    padding:0px 10px;
+    font-size:1em;
+    line-height: 1.5em;
+    padding:1.025em 0.625em;
     
   
 
 }
 .right>h1{
-    padding-bottom: 20px;
+    padding-bottom: 0.8em;
 }
 .right>p{
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 1em;
 line-height: 150%;
 text-align: justify;
-letter-spacing: 0.5px;
+letter-spacing: 0.031em;
 }
 .main{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    border:2px solid #155EEF;
-    margin-top:5px ;
-    margin-bottom: 30px;
-    margin-left:100px ;
-    margin-right: 100px;
-    border-radius: 8px;
+    border:0.125em solid #155EEF;
+    margin-top:0.313em ;
+    margin-bottom: 1.875em;
+    margin-left:6.25em ;
+    margin-right: 6.25em;
+    border-radius: 0.5em;
     width:80%;
 
 }
@@ -93,40 +98,40 @@ letter-spacing: 0.5px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1em;
 line-height: 150%;
-letter-spacing: 0.5px;
-padding-bottom: 30px;
+letter-spacing: 0.031em;
+padding-bottom: 1.875em;
 
 }
 .subs{
     background-color: #155EEF;
-    margin-bottom: 40px;
-    padding:10px;
+    margin-bottom:2.5em ;
+    padding:0.625em;
     color: white;
-    border:2px solid #155EEF;
-    border-radius: 5px;
-    width: 200px;
+    border:0.125em solid #155EEF;
+    border-radius: 0.313em;
+    width: 12.5em;
 }
 .left{
     max-width:40%;
     
 }
 .left>h5{
-    padding-top:30px;
+    padding-bottom:0.875em;
 }
 .left>h1{
     color:#155EEF;
-    padding-bottom: 30px;
-    padding-top:10px;
+    padding-bottom: 0.6em;
+    
 }
 .body{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    border:2px solid #155EEF;
-    margin:20px 100px;
-    border-radius: 8px;
+    border:0.125em solid #155EEF;
+    margin:1.25em 6.25em;
+    border-radius: 0.5em;
     width:80%;
 }
 .right{
@@ -137,32 +142,35 @@ padding-bottom: 30px;
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 100px;
-    border: 2px solid #155EEF;
-    border-radius: 8px;
-    padding: 0px 20px;
+    margin: 1.875em 6.25em;
+    border: 0.125em solid #155EEF;
+    border-radius: 0.5em;
+    padding: 0em 1.25em;
     width:80%;
 
 
 
 }
 .right--footer{
-    font-size:15px;
-    padding-right: 10px;
-    font-family:sans-serif;
-    font-weight: bold;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 150%;
+    letter-spacing: 0.031em;
+    color: #041330;
 }
 .ig{
-  padding-right:20px;
+  padding-right:1.25em;
 }
 .fb{
-    padding-left: 20px;
+    padding-left: 1.25em;
 }
 .img{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 1.25em 0em;
 }
 
 
