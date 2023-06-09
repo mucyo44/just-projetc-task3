@@ -80,7 +80,10 @@ letter-spacing: 0.5px;
     align-items: center;
     justify-content: space-around;
     border:2px solid #155EEF;
-    margin:20px   100px;
+    margin-top:5px ;
+    margin-bottom: 30px;
+    margin-left:100px ;
+    margin-right: 100px;
     border-radius: 8px;
     width:80%;
 
@@ -134,11 +137,12 @@ padding-bottom: 30px;
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 100px;
+    margin: 30px 100px;
     border: 2px solid #155EEF;
     border-radius: 8px;
     padding: 0px 20px;
     width:80%;
+
 
 
 }
@@ -153,6 +157,12 @@ padding-bottom: 30px;
 }
 .fb{
     padding-left: 20px;
+}
+.img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
 }
 
 
