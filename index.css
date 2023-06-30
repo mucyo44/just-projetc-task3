@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    margin:0 auto; 
+}
 
 .container{
     width:100%;
@@ -13,7 +16,7 @@
 
 }
 .header{
-   display: flex;
+    display:flex;
     border:0.2em solid #155EEF;
     margin:1.25em   10em;
     border-radius: 0.625em;
@@ -23,6 +26,9 @@
     padding:0.625em  0.625em 0em 1.25em;
     width:80%;
 
+}
+.header>.icon{
+    display:none;
 }
 .img1{
     width:28.125em;
@@ -225,6 +231,109 @@ ul{
 }
 
 
+@media screen and (max-width:396px){
+    body{
+        max-width: 100%;
+    }
+    .header>.icon{
+        display:flex;
+        margin-top: 10px;
+        margin-left:73%; 
+       }
+       .nav{
+        display:none;
+       }
+       .main ,.project , .body {
+        display:flex;
+        flex-direction: column;
+       }   
+    .main>div,.project>div,.body>div{
+        width:100% !important;
+        /* text-align: center;  */
+        
+    }   
+    p{
+        width:100%;   
+    }  
+    .right, .left {
+       margin-bottom: 5%;
+    } 
+    .img1,.img2{
+        width:100%;
+    }
+    .boy{
+        display:none;
+    }  
+    .project{
+        position:static; 
+        padding:15px 0;
+        width: 40em;
+        left: 0.4em;
+        top: 2em;
+        border-radius:5px;
+    }  
+    .footer{
+        display:flex;
+       
+    }   
+   
+}
+@media screen and (max-width: 740px){
+   .header>.icon{
+    display:flex;
+    margin-top: 10px;
+    margin-left:73%; 
+   }
+   .nav{
+    display:none;
+   }
+   .main ,.project , .body {
+    display:flex;
+    flex-direction: column;
+   }   
+.main>div,.project>div,.body>div{
+    width:100% !important;
+    text-align: center; 
+    
+}   
+p{
+    width:100%;   
+}  
+.right, .left {
+   margin-bottom: 5%;
+} 
+.img1,.img2{
+    width:100%;
+}
+.boy{
+    display:none;
+}  
+.project{
+    position:static; 
+    height: auto;
+    border:5px;
+}  
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+}   
+.middle--footer{
+    margin-left:50px;
+}   
+.right--footer{
+   margin-left: 20%;
+}                                                                                                                       
+}
+@media screen and (max-width:820px){
+    .main ,.project , .body {
+        display:flex;
+        flex-direction: column;
+    }  
+                                                                                                                       
+ } 
 
 
 
+
+
+  
